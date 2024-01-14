@@ -1,0 +1,9 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: testdoc
+  namespace: testdoc
+spec:
+  url: github.com?owner=jduimovich&repo=testdoc
+
+  
